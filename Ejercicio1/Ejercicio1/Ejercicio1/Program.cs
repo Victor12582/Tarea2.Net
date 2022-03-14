@@ -5,7 +5,7 @@ namespace Ejercicio1
     class Libreria
     {
         private List<Pelicula> _peliculas;
-        private List<Terror> _pelisterror
+        private List<Terror> _pelisterror;
 
         public Libreria()
         {
@@ -71,13 +71,42 @@ namespace Ejercicio1
                 Console.WriteLine("4.- Eliminar");
                 Console.WriteLine("5.- __Regresar__");
             } while (!validaMenu(5, ref opcionSeleccionada));
+            Console.Clear();
             switch (opcionSeleccionada)
             {
                 case 1:
-                    foreach (Terror item in )
+                    foreach (Terror item in _pelisterror)
+                    {
+                        Console.WriteLine(item.ToString());
+                    }
+                    Console.WriteLine("Presiona 'enter' para continuar.");
+                    Console.ReadLine();
+                    crudTerrorCd();
+
                     break;
                 case 2:
-                    crudAmor();
+                    string? id;
+                    string? nombre;
+                    Console.WriteLine("Agregar o crear una pelicula de terror.");
+                    do
+                    {
+                        Console.Write("Id: ");
+                        id = Console.ReadLine();
+                        if (id == null || id == "")
+                        {
+                            Console.Write("Id invalido.");
+                        }
+                    } while (id == null || id == "");
+                    do
+                    {
+                        Console.Write("Nombre: ");
+                        nombre = Console.ReadLine();
+                        if (nombre == null || nombre == "")
+                        {
+                            Console.Write("Nombre invalido.");
+                        }
+                    } while (nombre == null || nombre == "");
+                    Terror nuevaTerror = new Terror(id, nombre);
                     break;
                 case 3:
                     crudCienciaFiccion();
@@ -88,8 +117,6 @@ namespace Ejercicio1
                 case 5:
                     crudDrama();
                     break;
-                case 6:
-                    crud
             }
         }
 

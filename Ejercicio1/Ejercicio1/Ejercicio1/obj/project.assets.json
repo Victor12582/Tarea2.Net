@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manel\\OneDrive\\Documentos\\4toSemestre\\ProgNET\\Ejercicio1\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
+      "projectUniqueName": "C:\\Users\\manel\\OneDrive\\Documentos\\4toSemestre\\ProgNET\\Tarea2.Net\\Ejercicio1\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
       "projectName": "Ejercicio1",
-      "projectPath": "C:\\Users\\manel\\OneDrive\\Documentos\\4toSemestre\\ProgNET\\Ejercicio1\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
+      "projectPath": "C:\\Users\\manel\\OneDrive\\Documentos\\4toSemestre\\ProgNET\\Tarea2.Net\\Ejercicio1\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
       "packagesPath": "C:\\Users\\manel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manel\\OneDrive\\Documentos\\4toSemestre\\ProgNET\\Ejercicio1\\Ejercicio1\\Ejercicio1\\obj\\",
+      "outputPath": "C:\\Users\\manel\\OneDrive\\Documentos\\4toSemestre\\ProgNET\\Tarea2.Net\\Ejercicio1\\Ejercicio1\\Ejercicio1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manel\\AppData\\Roaming\\NuGet\\NuGet.Config",
